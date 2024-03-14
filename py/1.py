@@ -1,3 +1,9 @@
+class Node:
+  def __init__(self, root, left, right):
+    self.root  = root
+    self.left = left
+    self.right = right
+
 class Ship:
   def __init__(self, draft, crew):
     self.draft = draft

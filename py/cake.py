@@ -8,10 +8,10 @@ def digital_root(n):
 
    
   
-digital_root(16)
-digital_root(942)
-digital_root(132189)
-digital_root(493193)
+# digital_root(16)
+# digital_root(942)
+# digital_root(132189)
+# digital_root(493193)
 
 def digital_rot(n):
   numbers: list = [int(i) for i in str(n)]
@@ -37,4 +37,26 @@ def bubble_sort(array: list):
     
 
 
-bubble_sort()
+# bubble_sort()
+
+
+
+
+def disevowel(string_: str):
+  vowels = ["a", "e", "i", "o", "u"]
+  for i in vowels:
+    if i in string_:
+      print(i)
+      stringed = string_.replace(i, "")
+
+  print(stringed)
+
+print(disevowel("hello world"))
+
+
+
+
+
+
+
+

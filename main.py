@@ -34,6 +34,9 @@ class Hashtable:
 def is_anagram(test, original):
   return True if sorted(test.lower()) == sorted(original.lower()) else False
 
+def anagram(test, original):
+
+
 #
 # def is_something(test, original):
 #   return sorted(test.lower() == sorted(original.lower()))
